@@ -8,7 +8,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  border: 2px solid black; /* changed from red to black */
+  border: 2px solid black; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,12 +73,12 @@ body {
 
 /* allow pop-ups to extend beyond the border */
 .container { 
-  overflow: visible;          /* was default, but make explicit */
-  padding-top: 48px;          /* add breathing room above the SVG */
-  border: 2px solid black;    /* your black border */
+  overflow: visible;         
+  padding-top: 48px;          
+  border: 2px solid black;    
 }
 
 /* allow elements that scale past the SVG’s bounds to still show */
 svg#CAT {
-  overflow: visible;          /* important for pop-up text inside SVG */
+  overflow: visible;         
 }
